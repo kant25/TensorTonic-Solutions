@@ -1,0 +1,12 @@
+import numpy as np
+
+def sigmoid(x: list | float) -> np.ndarray | float:
+    """
+    Returns the sigmoid value for a scalar or each element of a list.
+    """
+    # Write code here
+    np.asarray(x, dtype = float)
+    sigma = 1/(1+np.exp(np.negative(x)))
+    pass
+    return sigma
+
